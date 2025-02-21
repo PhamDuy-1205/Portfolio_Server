@@ -70,8 +70,8 @@ export default function Portfolio() {
                     </motion.div>
                 </div>
             ))}
-            <div className="my-[100vw]">
-                {/* Div này dùng để thêm khoảng trống */}
+            <div className="my-[10rem]">
+                {/* Div này dùng để thêm khoảng trống trong quá trình phát triển */}
             </div>
         </div>
     );

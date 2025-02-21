@@ -127,7 +127,8 @@ export const skillList = [
 export const projectList = [
     {
         name: "Bingsu Shop Ecommerce",
-        describe: "Website thương mại điện tử",
+        describe:
+            "Website thương mại điện tử - Đang trong quá trình sửa lỗi để deploy",
         techList: ["NextJS", "Redux Toolkit"],
         imageList: [
             "/images/Ecommerce_NextJS_ReduxToolKit/client_page.png",
