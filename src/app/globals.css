@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Dùng cho light mode của trình duyệt */
+:root {
+    --background-color-main: #0f111a;
+    --background-color-second: #141824;
+    --text-color-main: #6c757d;
+    --text-color-gray: #8a94ad;
+    --text-color-white: #ffffff;
+    --text-color-orange: #f26c4f;
+    --text-color-yellow: #f7c37a;
+    --text-color-black: #243c5a;
+    --border-color-main: #373e53;
+    --button-color-second: #373e53;
+}
+
+/* Dùng cho dark mode của trình duyệt */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color-main: #0f111a;
+        --background-color-second: #141824;
+        --text-color-gray: #8a94ad;
+        --text-color-white: #ffffff;
+        --text-color-orange: #f26c4f;
+        --text-color-yellow: #f7c37a;
+        --text-color-black: #243c5a;
+        --button-color-main-hover: #00ffee;
+        --button-color-second: #373e53;
+    }
+}
+
+html,/* Reset margin và padding của trình duyệt */
+body {
+    @apply m-0 p-0 box-border overflow-x-hidden; /* Reset margin và padding của trình duyệt */
+    background-color: var(--background-color-main);
+    margin: 0;
+    padding: 0;
+    font-family: inherit, sans-serif;
+    color: var(--text-color-white);
+    cursor: default;
+}
+
+.custom-bg-color {
+    background-image: linear-gradient(
+        to right,
+        var(--text-color-orange),
+        var(--text-color-yellow) 60%
+    );
+}
+
+.custom-text-color {
+    background-image: linear-gradient(
+        to right,
+        var(--text-color-orange),
+        var(--text-color-yellow) 60%
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+}
