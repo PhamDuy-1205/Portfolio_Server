@@ -136,7 +136,7 @@ export const projectList = [
             "/images/Ecommerce_NextJS_ReduxToolKit/products_detail_page.png",
             "/images/Ecommerce_NextJS_ReduxToolKit/cart_page.png",
         ],
-        gitLink: "",
+        gitLink: "https://github.com/PhamDuy-1205/Ecommerce_NextJS_ReduxToolKit_Server",
         isComplete: false,
         isGoLive: true,
         goliveLink: "https://ecommerce-next-js-redux-tool-kit-server.vercel.app/client",
