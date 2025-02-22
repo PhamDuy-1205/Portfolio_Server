@@ -138,7 +138,7 @@ export const projectList = [
         ],
         gitLink: "",
         isComplete: false,
-        isGoLive: false,
-        goliveLink: "",
+        isGoLive: true,
+        goliveLink: "https://ecommerce-next-js-redux-tool-kit-server.vercel.app/client",
     },
 ];
